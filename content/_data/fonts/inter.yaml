@@ -1,0 +1,17 @@
+displayName: Inter
+summary: Codeberg's new house font
+version: v3.15
+copyright: |
+  Copyright (c) 2016-2020 The Inter Project Authors
+  "Inter" is a Reserved Font Name.
+  https://github.com/rsms/inter
+license: OFL-1.1-RFN
+
+releaseUrl: https://github.com/rsms/inter/releases/download/v3.15/Inter-3.15.zip
+releaseSHA256: 1534288eb599f57acbf2c5ac0010da9495c2ee53116e08d799555c6f8ee22156
+licenseFile: LICENSE.txt
+
+description: |
+  <p>Inter is Codeberg's new house font.</p>
+  <p>You can use it as your default font for Codeberg e.V. projects.</p>
+  <p>Details: <a href="https://codeberg.org/Codeberg/Design/wiki/Branding#user-content-font-inter">Codeberg Design Wiki</a></p>

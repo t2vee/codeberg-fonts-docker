@@ -1,0 +1,43 @@
+{% if fontKey %}
+    {% set font = fonts[fontKey] %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% if font %}{{ font.displayName }} | {% endif %}Codeberg Fonts</title>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="{% if font %}{{ font.summary }}{% else %}A font hosting site for Codeberg{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/codeberg-favicon.svg' | url }}" sizes="250x250">
+
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/codeberg-fonts.css' | url }}">
+
+    <!-- TODO: Make Codeberg Fonts use its own webfonts :-) -->
+  </head>
+
+  <body>
+    <header>
+        <h1><a href="{{ '/' | url }}">Codeberg Fonts</a></h1><!-- TODO: Add logo -->
+        <p>A font hosting site for Codeberg (in development)</p>
+    </header>
+
+    <main>
+        {{ content | safe }}
+    </main>
+
+    <footer>
+        This Website by <a href="{{ urls.sourcesMain }}/CONTRIBUTORS.md">The Codeberg Fonts Contributors</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA 4.0</a>.
+        It bundles third-party font software licensed under a different license.
+        Please look at <a href="{{ urls.sourcesMain }}/LICENSE.md">the LICENSE file</a> for details.<br>
+
+        Changes to the original versions of the article as well as its individual authors can be looked up in <a href="{{ urls.sourcesRepository }}" target="_blank">the source repository of this website</a>
+      
+        Codeberg and the Codeberg Logo are trademarks of Codeberg e.V.<br>
+      
+        For Imprint, Privacy Policy and other legal notices, please refer to <a href="https://codeberg.org">https://codeberg.org</a>.
+    </footer>
+  </body>
+</html>

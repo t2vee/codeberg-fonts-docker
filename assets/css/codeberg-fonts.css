@@ -1,0 +1,15 @@
+body { font-family: monospace; font-size: 12pt; background: #111; color: orange; }
+
+main { padding: 50px 0; }
+footer { font-size: 8pt; }
+
+h1 { font-size: 16pt; font-weight: bold; }
+h2 { font-size: 14pt; font-weight: bold; }
+
+a { color: orangered; }
+
+.font-details-table { margin-left: 30px; }
+.font-details-table th { text-align: left; vertical-align: top; padding-right: 20px; }
+.font-details-table pre { margin-top: 0; }
+
+.font-url { background: #333; padding: 10px; border: 1px solid orangered; }

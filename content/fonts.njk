@@ -1,0 +1,47 @@
+---
+layout: default_layout
+pagination:
+    data: fonts
+    size: 1
+    alias: fontKey
+permalink: "fonts/{{ fontKey | slug }}/"
+---
+
+{% set font = fonts[fontKey] %}
+{% set fontUrl = ('/dist/' + fontKey) | url %}
+
+<h2>{{ font.displayName }}</h2>
+<p>{{ font.summary }}</p>
+
+<table class="font-details-table">
+    <tr>
+        <th>Version</th>
+        <td>{{ font.version }}</td>
+    </tr>
+    <tr>
+        <th>Copyright</th>
+        <td><pre>{{ font.copyright }}</pre></td>
+    </tr>
+    <tr>
+        <th>License</th>
+        <td>
+            {{ font.license }}<br>
+            For details please refer to the <a href="{{ fontUrl }}/{{ font.licenseFile }}">license file</a>
+        </td>
+    </tr>
+    <tr>
+        <th>Font files hosted under</th>
+        <td>
+            <pre class="font-url">{{ urls.absoluteBaseUrl}}{{ fontUrl }}</pre>
+            
+            To find out which files are hosted in that directory, please refer to
+            <a href="{{ urls.pagesSourcesMain }}{{ fontUrl }}">it's index in the pages repository</a>.
+        </td>
+    </tr>
+    <tr>
+        <th>Downloaded from</th>
+        <td><a href="{{ font.releaseUrl }}">{{ font.releaseUrl }}</a></td>
+    </tr>
+</table>
+
+<p>{{ font.description | safe }}</p>

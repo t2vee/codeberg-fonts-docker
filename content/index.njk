@@ -1,0 +1,14 @@
+---
+layout: default_layout
+---
+
+<h2>Available fonts</h2>
+
+<ul>
+{% for key,meta in fonts | noDrafts %}
+    <li>
+        <a href="{{ ('/fonts/' + (key | slug)) | url }}">{{ meta.displayName }}</a>
+        <p>{{ meta.summary }}</p>
+    </li>
+{% endfor %}
+</ul>

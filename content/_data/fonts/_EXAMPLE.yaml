@@ -1,0 +1,15 @@
+draft: true  # Set to true if you don't want this font to be included in the final site
+
+displayName: FooFont                # The name of the font, as is to be displayed for example in headings and indexes
+summary: TL;DR                      # A one-liner describing the font
+version: v1.0                       # The version of the font shipped. Prefix v to avoid this being parsed as a number.
+copyright: Copyright 2020 John Doe  # The copyright designation of the original font, i.e. Copyright 2020 John Doe
+license: OFL-1.1-RFN                # The license for the font. Usually one of OFL-1.1, OFL-1.1-RFN or OTHER
+
+releaseUrl: https://...     # The URL where the original font package can be downloaded from
+releaseSHA256: 0124abcd...  # The SHA256 hash for verifying the downloaded font package
+licenseFile: LICENSE.txt    # Path to the original license file within the font package
+
+description: |        # A more detailed description about the font. May be multiline, may contain HTML.
+  This is a
+  <strong>multiline description</strong>.
