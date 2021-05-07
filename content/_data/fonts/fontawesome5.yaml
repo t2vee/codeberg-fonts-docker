@@ -1,12 +1,11 @@
 displayName: FontAwesome 5 Free (w/o brands)
 summary: The free version of the popular FontAwesome 5 icon font, minus the brand icons
-version: v5.14.0
+version: v5.15.3
 copyright: Copyright (c) Font Awesome
 license: OTHER  # Uses multiple licenses, see licenseFile
 
-releaseUrl: https://github.com/FortAwesome/Font-Awesome/releases/download/5.14.0/fontawesome-free-5.14.0-web.zip
-releaseSHA256: 7c4111af85f8ec2161319a8e4956351b7196797ad6aa1789c840bb88b12e177a
+releaseUrl: https://github.com/FortAwesome/Font-Awesome/releases/download/5.15.3/fontawesome-free-5.15.3-web.zip
+releaseSHA256: a7c4e9f763ffb15d8c4be664338db3cb7217515ec551935fdc92af44a21b357a
 licenseFile: LICENSE.txt
 
 description:
-  The brand icons are missing due to doubts about their legal status under German copyright law.
