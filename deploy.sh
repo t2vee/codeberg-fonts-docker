@@ -7,7 +7,9 @@ npm run build
 
 
 if [ ! -d pages.git ]; then
-    git clone git@codeberg.org:codeberg-fonts/pages.git pages.git
+	mkdir pages.git && cd pages.git
+	git init && git remote add origin "git@codeberg.org:codeberg-fonts/pages.git"
+	cd ..
 fi
 
 rsync -av _site/* pages.git/
@@ -15,4 +17,4 @@ rsync -av _site/* pages.git/
 cd pages.git
 git add -A
 git commit -am "Deployment at $(date -u -Is)"
-git push origin main
+git push origin main -f
