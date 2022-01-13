@@ -1,14 +1,14 @@
 displayName: Inter
 summary: Codeberg's new house font
-version: v3.15
+version: v3.19
 copyright: |
   Copyright (c) 2016-2020 The Inter Project Authors
   "Inter" is a Reserved Font Name.
   https://github.com/rsms/inter
 license: OFL-1.1-RFN
 
-releaseUrl: https://github.com/rsms/inter/releases/download/v3.15/Inter-3.15.zip
-releaseSHA256: 1534288eb599f57acbf2c5ac0010da9495c2ee53116e08d799555c6f8ee22156
+releaseUrl: https://github.com/rsms/inter/releases/download/v3.19/Inter-3.19.zip
+releaseSHA256: bcffbda52f7b0c7c2a842ac7e77869ff6327cea77fa9035393df695ae90bdc5b
 licenseFile: LICENSE.txt
 
 description: |

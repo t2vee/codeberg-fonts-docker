@@ -14,5 +14,5 @@ rsync -av _site/* pages.git/
 
 cd pages.git
 git add -A
-git commit -am "deployment"
+git commit -am "Deployment at $(date -u -Is)"
 git push origin main
