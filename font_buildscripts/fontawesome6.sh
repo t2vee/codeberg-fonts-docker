@@ -1,4 +1,4 @@
-FA_SUBDIR=fontawesome-free-5.*-web
+FA_SUBDIR=fontawesome-free-6.*-web
 
 mv $FA_SUBDIR/* .
 rmdir $FA_SUBDIR
