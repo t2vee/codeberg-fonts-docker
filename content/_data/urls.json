@@ -1,6 +1,6 @@
 {
   "absoluteBaseUrl": "https://fonts.codeberg.org",
-  "pagesSourcesMain": "https://codeberg.org/codeberg-fonts/pages/src/branch/main",
-  "sourcesMain": "https://codeberg.org/codeberg-fonts/codeberg-fonts/src/branch/main",
-  "sourcesRepository": "https://codeberg.org/codeberg-fonts/codeberg-fonts"
+  "pagesSourcesMain": "https://codeberg.org/Codeberg-Infrastructure/static-deployments/src/branch/fonts",
+  "sourcesMain": "https://codeberg.org/Codeberg-Infrastructure/codeberg-fonts/src/branch/main",
+  "sourcesRepository": "https://codeberg.org/Codeberg-Infrastructure/codeberg-fonts"
 }
