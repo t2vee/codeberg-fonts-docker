@@ -15,4 +15,4 @@ echo "$DEPLOYMENT_BRANCH.codeberg.org" > pages.git/.domains
 ( cd pages.git && git add -A )				## add all generated files
 ( cd pages.git && git commit -m "Deployment at $(date -u -Is)" )	## commit all
 ( cd pages.git && git remote add origin "$DEPLOYMENT_REPO" )
-# ( cd pages.git && git push -f origin "$DEPLOYMENT_BRANCH" )		## force-push and rewrite (empty) history
+ ( cd pages.git && git push -f origin "$DEPLOYMENT_BRANCH" )		## force-push and rewrite (empty) history
