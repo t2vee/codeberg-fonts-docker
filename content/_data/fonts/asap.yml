@@ -1,0 +1,16 @@
+displayName: Asap
+summary: Main font used across t2v services
+version: v1.0
+copyright: |
+  Authors - https://github.com/Omnibus-Type/Asap/blob/master/CONTRIBUTORS.txt and https://github.com/Omnibus-Type/Asap/blob/master/AUTHORS.txt
+  Asap is available via an open source license, https://github.com/Omnibus-Type/Asap/blob/master/OFL.txt
+license: SIL Open Font License, 1.1
+
+releaseUrl: https://github.com/Omnibus-Type/Asap/archive/refs/heads/master.zip
+releaseSHA256: c9761445844eff1a35f430094f57af158b140cdcb2f8370a02e89cb60cda4108 
+licenseFile: LICENSE.txt
+
+description: |
+  <p>Main font used across t2v services.</p>
+  <p>You can use it as your default font for Codeberg e.V. projects.</p>
+  <p>Details: <a href="https://codeberg.org/Codeberg/Design/wiki/Branding#user-content-font-inter">Codeberg Design Wiki</a></p>  
